@@ -1,0 +1,115 @@
+
+.login{
+    text-align:center;
+    width: 100%; height:100vh; 
+    /* background: #34495e; */
+    background: linear-gradient(
+    90deg,
+    rgb(16, 199, 255) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+
+.form-login{
+    width: 400px;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background: #191919;
+    border-radius: 30px;
+}
+
+.form-login h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.form-login p{
+    color:#646768;
+}
+
+.form-login input[type="text"], .form-login input[type="password"]{
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align:center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25s;
+}
+
+.form-login input[type="text"]:focus, .form-login input[type="password"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+
+.submit-login{
+    width: 40px;
+    text-decoration: none;
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align:center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+   
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.submit-login:hover{
+    background: #2ecc71;
+}
+
+/* .form-login [type = "submit"]{
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align:center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+   
+    outline: none;
+    color: white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+} */
+
+/* .form-login [type = "submit"]:hover{
+    background: #2ecc71;
+} */
+
+.form-login .icons{
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;  
+    justify-content: space-around;
+}
+
+.fb-icon, .twitter-icon, .ig-icon{
+    padding: 0 10px;
+    color: white;
+}
+.fb-icon:hover{
+    color:#1877F2;
+}
+.twitter-icon:hover{
+    color: #1DA1F2;
+}
+.ig-icon:hover{
+    color: #e84393;
+}
+
+

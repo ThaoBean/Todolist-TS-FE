@@ -1,0 +1,67 @@
+.todos{
+    display: flex;
+    width: 100%;
+    position:relative;
+}
+.todos .todos-left{
+    transition: 0.6s;
+    width: 90%;
+    margin:auto;
+}
+
+.todos-left-resize{
+    transition-property: all;
+    /* transition:0.4s; */
+    transition-duration: 0.5s;
+    width: 60%;
+}
+
+.add-todo-right{
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 40%;
+}
+
+.add-todo-right-edit{
+    /* transition-property: all; */
+    transition-duration: 0.5s;
+    width:45%;
+    margin: auto;
+}
+.icon-add-todo{
+    font-size: 70px;
+    color:white;
+    cursor: pointer;
+    bottom: 0px; right: 10px;
+    position: fixed;
+}
+
+.tooltip {
+    transition: 0.5s;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipAdd{
+    display:inline-block;
+    font-size: 18px;
+    visibility: hidden;
+    width:150px;
+    line-height:40px;
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    padding: 0px 5px;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltipAdd {
+    visibility: visible;
+}
+
+
+.hidden-icon-add{
+    display: none;
+}

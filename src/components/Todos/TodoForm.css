@@ -1,0 +1,76 @@
+.todo-form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 90%;
+    min-height: 540px;
+    background: #161a2b;
+    
+    margin: 25px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+}
+
+.todo-form h1{
+    color:#fff;
+    text-align: center;
+}
+
+.todo-form-main{
+    width: 90%;
+    margin: 25px auto;
+}
+
+.todo-input{
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline:none;
+    width: 200px;
+    background:transparent;
+    color:#fff;
+}
+
+.todo-form-main .input{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.todo-form .input .label{
+    width:30%;
+    padding-left: 1%;
+    color: #fff;
+}
+
+.input textarea{
+    min-height:100px;
+}
+
+.todo-button{
+    padding:16px;
+    border:none;
+    border-radius:  4px ;
+    cursor:pointer;
+    outline:none;
+    background: linear-gradient(
+        90deg, 
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250,1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.todo-form .btn{
+    width: 100%;
+    text-align: center;
+}
+
+.todo-form .btn :nth-child(1){
+    margin-right:5%;
+}
+

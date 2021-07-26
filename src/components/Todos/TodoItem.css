@@ -1,0 +1,75 @@
+.todo-row{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    width:80%;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%
+    );
+
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+
+.delete-icon, .edit-icon{
+    cursor: pointer;
+}
+
+.todo-row .todo-title{
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+.todo-des{
+    padding: 5px 0px;
+    width:70%;
+}
+.todo-act{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.todo-row .todo-act{
+    display: flex;
+}
+.act-icon{
+    width: 95%;
+}
+
+.alarm-icon{
+    width: 5%;
+    font-size:25px;
+   
+}
+
+.delete-icon{
+    padding-right: 10px;
+}
+
+.todo-row:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+}
+  
+.todo-row:nth-child(4n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+}
+
+.todo-row:nth-child(4n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+}
